@@ -164,6 +164,21 @@ Open index.html in your browser
 - Toast notifications
 
 
+## 📸 Screenshots
+
+### Dashboard – Employee Directory
+![Employee Dashboard](images/preview01.jpeg)
+
+### Add Employee Form
+![Add Employee Form](images/form_preview.png)
+
+### Edit Employee Form
+![Edit Employee Form](images/edit-employee.png)
+
+### Employee Details View
+![Employee Details](images/details.png)
+
+
 ### 👤 Author
 
 - Jay Vardhan Vashishtha
