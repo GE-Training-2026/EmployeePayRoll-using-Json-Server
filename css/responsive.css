@@ -1,0 +1,82 @@
+/* =========================
+   Tablet & below (≤1024px)
+   ========================= */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Keep stats readable, not stacked aggressively */
+  .stats-row {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  /* Controls stack only when needed */
+  .controls {
+    flex-wrap: wrap;
+  }
+}
+
+/* =========================
+   Mobile landscape & below (≤768px)
+   ========================= */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .stats-row {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+  .details-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .details-actions {
+    flex-direction: column;
+  }
+
+  .details-actions .btn {
+    width: 100%;
+  }
+}
+
+/* =========================
+   Small mobile (≤480px)
+   ========================= */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .avatar {
+    width: 56px;
+    height: 56px;
+    font-size: 18px;
+  }
+
+  .stat-value {
+    font-size: 22px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
