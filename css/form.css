@@ -1,0 +1,92 @@
+/* =========================
+   Forms (Refined)
+   ========================= */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-card {
+  background: var(--card-bg);
+  padding: 28px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  width: 100%;
+  max-width: 640px;
+
+  /* subtle depth */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Field wrapper */
+.form-row {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.form-row label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: var(--text-muted);
+}
+
+/* Inputs & textareas */
+.form-row input,
+.form-row textarea,
+.form-row select {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--input-bg, #fff);
+  font-size: 15px;
+  line-height: 1.4;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+/* Smooth focus */
+.form-row input:focus,
+.form-row textarea:focus,
+.form-row select:focus {
+  outline: none;
+  border-color: var(--primary);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15); /* soft focus ring */
+}
+
+/* Placeholder */
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+  color: var(--text-light, #9ca3af);
+}
+
+/* Disabled state */
+.form-row input:disabled,
+.form-row textarea:disabled,
+.form-row select:disabled {
+  background: #f3f4f6;
+  cursor: not-allowed;
+}
+
+/* Actions */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+/* Error text */
+.error {
+  color: var(--danger);
+  font-size: 13px;
+  margin-top: 6px;
+}
