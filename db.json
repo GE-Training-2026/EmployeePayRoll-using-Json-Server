@@ -1,0 +1,193 @@
+{
+  "employees": [
+    {
+      "id": "386d",
+      "name": "Krishna",
+      "email": "krishna@ge.com",
+      "phone": "9287427422",
+      "salary": 45000,
+      "department": "Finance",
+      "startDate": "2026-02-05",
+      "notes": "hi",
+      "image": "images/pic02.jpeg"
+    },
+    {
+      "name": "Jay Vardhan Vashishtha",
+      "email": "JayVardhan.Vashishtha@gevernova.com",
+      "phone": "07830365011",
+      "salary": 20000,
+      "department": "Engineering",
+      "startDate": "2026-02-05",
+      "notes": "ssqsd",
+      "id": "7bdb"
+    },
+    {
+      "id": "8e89",
+      "name": "Jim carey",
+      "email": "jim.carey@gevernova.com",
+      "phone": "9234312023",
+      "salary": 85000,
+      "department": "Engineering",
+      "startDate": "2026-02-03",
+      "notes": "Hey,I'm an engineer working in the team of software development.",
+      "image": "images/pic03.jpeg"
+    },
+    {
+      "id": "1079",
+      "name": "rohit",
+      "email": "ro@gmail.com",
+      "phone": "8273498721",
+      "salary": 87222,
+      "department": "Sales",
+      "startDate": "2026-02-05",
+      "notes": "hello",
+      "image": "images/pic04.jpeg"
+    },
+    {
+      "id": "c0a5",
+      "name": "Rohit Sharma",
+      "email": "rohit@gmail.com",
+      "phone": "8239312387",
+      "salary": 87432,
+      "department": "Sales",
+      "startDate": "2026-02-06",
+      "notes": "hey buddy",
+      "image": "images/pic05.jpeg"
+    },
+    {
+      "id": "fe45",
+      "name": "Elif John",
+      "email": "elif@gmail.com",
+      "phone": "9832837341",
+      "salary": 872321,
+      "department": "Operations",
+      "startDate": "2026-02-07",
+      "notes": "hey",
+      "image": "images/pic06.jpeg"
+    },
+    {
+      "id": "0fc3",
+      "name": "Zack",
+      "email": "zack@gmail.com",
+      "phone": "8292839121",
+      "salary": 89000,
+      "department": "Marketing",
+      "startDate": "2025-01-16",
+      "notes": "hey buddy",
+      "image": "images/pic07.jpeg"
+    },
+    {
+      "id": "69f3",
+      "name": "raju",
+      "email": "raju@gmail.com",
+      "phone": "9087982134",
+      "salary": 75000,
+      "department": "Engineering",
+      "startDate": "2026-02-05",
+      "notes": "hello",
+      "image": "images/pic07.jpeg"
+    },
+    {
+      "id": "c8c7",
+      "name": "raghav",
+      "email": "raghav@gmail.com",
+      "phone": "9873421234",
+      "salary": 89077,
+      "department": "Engineering",
+      "startDate": "2021-07-16",
+      "notes": "hello bhai, kya haal-chaal....sab thik?",
+      "image": "images/pic09.jpeg"
+    },
+    {
+      "id": "2a14",
+      "name": "Priyanshu",
+      "email": "priyanshu95@gmail.com",
+      "phone": "8712340987",
+      "salary": 95000,
+      "department": "Marketing",
+      "startDate": "2026-02-08",
+      "notes": "hey"
+    },
+    {
+      "id": "aaca",
+      "name": "razz",
+      "email": "raz@gmail.com",
+      "phone": "8723120097",
+      "salary": 82000,
+      "department": "Finance",
+      "startDate": "2026-02-04",
+      "notes": "hello"
+    },
+    {
+      "id": "db77",
+      "name": "Ge Vernova",
+      "email": "gevernova@ge.com",
+      "phone": "9812342167",
+      "salary": 98000,
+      "department": "HR",
+      "startDate": "2025-06-08",
+      "notes": "hey, whats upp bro?"
+    },
+    {
+      "id": "4da7",
+      "name": "raz",
+      "email": "raz@ge.com",
+      "phone": "2398091232",
+      "salary": 320000,
+      "department": "Marketing",
+      "startDate": "2026-02-06",
+      "notes": "hey, how are you?",
+      "image": "images/Screenshot (6).png"
+    },
+    {
+      "id": "41bc",
+      "name": "jerry",
+      "email": "jerry@ge.com",
+      "phone": "9821234211",
+      "salary": 87000,
+      "department": "Finance",
+      "startDate": "2026-02-15",
+      "notes": "hey guyz whats going on?"
+    },
+    {
+      "name": "Hrudaya Guttikonda",
+      "email": "hrudaya@ge.com",
+      "phone": "9832123476",
+      "salary": 100000,
+      "department": "HR",
+      "startDate": "2026-01-05",
+      "notes": "Hey, I'm Hrudaya Software developer at GE-Vernova.",
+      "id": "c7ce"
+    },
+    {
+      "name": "Saptadipa",
+      "email": "saptadipa@ge.com",
+      "phone": "0000000000",
+      "salary": 15000,
+      "department": "Sales",
+      "startDate": "2026-02-02",
+      "notes": "hi",
+      "id": "78fe"
+    },
+    {
+      "id": "b4ec",
+      "name": "Shiva",
+      "email": "shiva@ge.com",
+      "phone": "6204491084",
+      "salary": 45000,
+      "department": "Engineering",
+      "startDate": "2026-02-01",
+      "notes": "hey i am shiva."
+    },
+    {
+      "id": "ba7c",
+      "name": "ram",
+      "email": "ram@gmail.com",
+      "phone": "9876453234",
+      "salary": 50000,
+      "department": "HR",
+      "startDate": "2026-02-06",
+      "notes": "hey"
+    }
+  ]
+}
