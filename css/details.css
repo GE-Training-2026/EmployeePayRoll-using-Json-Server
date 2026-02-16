@@ -1,0 +1,250 @@
+:root {
+  --primary:#4f46e5;
+  --primary-dark:#4338ca;
+  --primary-light:#6366f1;
+
+  --success:#10b981;
+  --danger:#ef4444;
+  --info:#3b82f6;
+
+  --dark:#1e293b;
+  --muted:#475569;
+  --border:#e2e8f0;
+
+  --bg:#f8fafc;
+  --card-bg:#ffffff;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --font:'Roboto', sans-serif;
+}
+
+/* =========================
+   Page Base
+   ========================= */
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--dark);
+  margin: 0;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================
+   Header
+   ========================= */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+
+  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+  color: #fff;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+
+  background: rgba(255,255,255,0.15);
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+header nav a:hover {
+  background: rgba(255,255,255,0.3);
+  transform: translateY(-1px);
+}
+
+/* =========================
+   Details Card
+   ========================= */
+.details-card {
+  background: var(--card-bg);
+  padding: 28px;
+
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+
+  max-width: 720px;
+  margin: 40px auto;
+
+  box-shadow: 0 10px 30px rgba(16,24,40,0.08);
+  animation: fadeInUp 0.5s ease;
+}
+
+/* =========================
+   Top Section
+   ========================= */
+.details-top {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.details-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: var(--radius-lg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.details-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.22);
+}
+
+.details-name {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.details-meta {
+  font-size: 15px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+.details-meta strong {
+  color: var(--dark);
+  font-weight: 600;
+}
+
+/* =========================
+   Action Buttons
+   ========================= */
+.details-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.details-actions .btn {
+  flex: 1;
+}
+
+/* =========================
+   Buttons
+   ========================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 11px 18px;
+  border-radius: var(--radius-md);
+  border: none;
+
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+}
+
+.btn-secondary {
+  background: #f1f5f9;
+  color: var(--dark);
+  border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+  background: #e2e8f0;
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: #dc2626;
+}
+
+/* =========================
+   Animations
+   ========================= */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   Responsive
+   ========================= */
+@media (max-width: 767px) {
+  .details-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .details-avatar {
+    margin-bottom: 12px;
+  }
+
+  .details-actions {
+    flex-direction: column;
+  }
+
+  .details-actions .btn {
+    width: 100%;
+  }
+}
