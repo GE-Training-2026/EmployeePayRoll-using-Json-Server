@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Add Employee</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/toast.css">
+</head>
+<body>
+    
+  <header class="header">
+    <div class="header-left">
+      <h1 class="brand">Add Employee</h1>
+    </div>
+    <div class="header-right">
+      <a class="btn btn-secondary" href="index.html">Back to Home</a>
+    </div>
+  </header>
+
+  <main class="container form-container">
+    <form id="employeeForm" class="form-card" novalidate>
+      <div class="form-row">
+        <label>Full Name *</label>
+        <input id="name" class="input" type="text" required />
+        <div class="error" id="nameError"></div>
+      </div>
+
+      <div class="form-row">
+        <label>Email *</label>
+        <input id="email" class="input" type="email" required />
+        <div class="error" id="emailError"></div>
+      </div>
+
+      <div class="form-row">
+        <label>Phone *</label>
+        <input id="phone" class="input" type="tel" required />
+        <div class="error" id="phoneError"></div>
+      </div>
+
+      <div class="form-row">
+        <label>Salary (₹) *</label>
+        <input id="salary" class="input" type="number" min="15000" required />
+        <div class="error" id="salaryError"></div>
+      </div>
+
+      <div class="form-row">
+        <label>Department *</label>
+        <select id="department" class="select" required>
+          <option value="">Select Department</option>
+          <option>Engineering</option>
+          <option>Sales</option>
+          <option>HR</option>
+          <option>Finance</option>
+          <option>Marketing</option>
+          <option>Operations</option>
+        </select>
+        <div class="error" id="departmentError"></div>
+      </div>
+
+      <div class="form-row">
+        <label>Start Date *</label>
+        <input id="startDate" class="input" type="date" required />
+        <div class="error" id="startDateError"></div>
+      </div>
+
+      <div class="form-row">
+        <label>Notes</label>
+        <textarea id="notes" class="input" rows="3"></textarea>
+      </div>
+      
+
+      <div class="form-actions">
+        <button type="button" class="btn btn-secondary" onclick="location.href='index.html'">Cancel</button>
+        <button type="submit" class="btn btn-primary">Save Employee</button>
+      </div>
+    </form>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="js/add.js"></script>
+</body>
+</html>
