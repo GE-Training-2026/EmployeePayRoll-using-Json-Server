@@ -167,7 +167,7 @@ Open index.html in your browser
 ## 📸 Screenshots
 
 ### Dashboard – Employee Directory
-![Employee Dashboard](images/preview01.jpeg)
+![Employee Dashboard](images/preview01.png)
 
 ### Add Employee Form
 ![Add Employee Form](images/form_preview.png)
